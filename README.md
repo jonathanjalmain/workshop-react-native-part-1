@@ -51,11 +51,11 @@ Now you can code (and remember to save during the process)
 
 ## Presence
 
-To be marked present, you need to send us a mail using your Epitech email address.
+To be marked present, you need to send us a mail with your work, using your Epitech email address.
 
 Please respect the following format :
 
 - **To**: christian.tran@epitech.eu
 - **Cc**: hahrin.seo@epitech.eu
 - **Subject:** [First Name] [LAST NAME] Workshop React Native Part 1
-- **Body:** [URL your snack]
+- **Body:** [URL of your snack]
