@@ -61,15 +61,15 @@ Make sure your App.js looks like this:
         return (
             <View style={styles.container}>
 
-            /View>
+            </View>
         );
     }
 
-    const styles = StyleSheet.createC{
+    const styles = StyleSheet.create({
         container: {
             flex: 1,
             justifyContent: 'center',
-            paddingTop: Constants. statusBarHeight,
+            paddingTop: Constants.statusBarHeight,
             backgroundColor: '#ecf0f1',
             padding: 8
         }
