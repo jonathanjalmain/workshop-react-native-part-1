@@ -44,7 +44,7 @@ Make sure your package.json looks like this:
         "expo-constants": "~13.2.4",
         "@expo/vector-icons": "^13.0.0",
         "react-native-paper": "4.9.2",
-        "axios": "^1.3.3",
+        "axios": "^1.3.2",
         "date-fns": "^2.29.3",
         "expo-location": "~14.3.0"
       }
@@ -57,15 +57,15 @@ Make sure your App.js looks like this:
     import * as React from 'react';
     import { Text, View, StyleSheet } from 'react-native';
     import Constants from 'expo-constants';
-    
+
     export default function App() {
       return (
         <View style={styles.container}>
-    
+
         </View>
       );
     }
-    
+
     const styles = StyleSheet.create({
       container: {
         flex: 1,
