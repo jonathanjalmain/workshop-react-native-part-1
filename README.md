@@ -17,7 +17,6 @@
   - [Step 2.5 - Create the CurrentWeather component](#step-25---create-the-currentweather-component)
   - [Step 2.6 - Display the image representing the current weather](#step-26---display-the-image-representing-the-current-weather)
 - [Bonus - Style](#bonus---style)
-- [Next Workshop - Forecasts](#next-workshop---forecasts)
 
 ## Introduction
 
@@ -175,7 +174,3 @@ Add an image of representing the current weather above the temperature.
 
 Personalize your weather app by adding style to your components ! (font, size, color, etc)
 
-### Next workshop - Forecasts
-
-More advanced concepts: The forecast for the following few days
-[](#step-26---display-the-image-representing-the-current-weather)
