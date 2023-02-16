@@ -37,17 +37,7 @@ Now that you have the preview directly on your device, close the web preview by 
 
 ### Dependencies
 
-Add the following dependencies in your package.json:
-
-    "axios": "^1.3.3"
-    "date-fns": "^2.29.3"
-    "expo-location": "^15.0.1"
-
-- axios is for making requests to the OpenWeather API
-- date-fns is for manipulating dates
-- expo-location is for accessing the user's coordinates
-
-Your package.json should look like this:
+Make sure your package.json looks like this:
 
     {
         "dependencies": {
@@ -61,14 +51,7 @@ Your package.json should look like this:
 
 ## App.js
 
-In App.js:
-
-- Remove every line from the View container
-- Remove the ***paragraph*** style
-- Remove the AssetExample import
-- Remove the Card import from react-native-paper
-
-Your App.js should look like this:
+Make sure your App.js looks like this:
 
     import * as React from 'react';
     import { Text, View, StyleSheet } from 'react-native';
@@ -88,3 +71,5 @@ Your App.js should look like this:
          padding: 8,
       له
     });
+
+**[Let's start coding !](README.md#step-1---fetch-the-users-coordinates)**
