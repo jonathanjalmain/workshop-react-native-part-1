@@ -90,7 +90,7 @@ In general, you should'nt directly put your API key in source files since it is 
 
 Currently, the API url is constant, which means that you can't put the latitude and longitude that you want in the URL.
 
-Find out how to turn API_URL into a function that solves this problem.
+Find out how to modify API_URL to solve this problem.
 
 ### Step 2.2 - Set up the request
 
