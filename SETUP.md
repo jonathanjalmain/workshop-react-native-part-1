@@ -12,11 +12,11 @@ Keep the web page since you will need to use the key later in your code.
 
 ## Expo
 
-- Fork the project from the GitHub repository and clone it
-- Run ```npm install``` to install all the dependencies
-- Run ```npx expo start``` to check if Expo CLI works properly
-- Download Expo Go on your smartphone
-- Scan the QR Code to open the app on your smartphone
+1. Fork the project from the GitHub repository and clone it
+2. Run ```npm install``` to install all the dependencies
+3. Run ```npx expo start``` to check if Expo CLI works properly
+4. Download Expo Go on your smartphone
+5. Scan the QR Code to open the app on your smartphone
 
 You're all set. Do not forget to push your commits frequently to be marked present.
 
