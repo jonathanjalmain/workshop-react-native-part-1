@@ -135,7 +135,7 @@ Import that CurrentWeather in App.js and use it in the App component's return.
 
 Now you can display the current temperature thanks to data. However, you need to find the correct object from the list in data. You will need to filter the list and use "dt" (stands for date time).
 
-In a useEffect hook depending on data, store the result of a filter on data.list, in a "currentWeather" state. The filter compares 2 Date objects with isSameDay function from date-fns:
+In a useEffect hook depending on data, store the result of a filter on data.list, in a "currentWeather" state. The filter compares 2 Date objects with a function from date-fns:
 
 - the current date time that you construct
 - a date time constructed from a dt from the list
