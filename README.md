@@ -4,7 +4,6 @@
   - [Workshop content](#workshop-content)
   - [Documentation](#documentation)
 - [Setup](#setup)
-- [Presence](#presence)
 - [Step 1 - Fetch the user's coordinates](#step-1---fetch-the-users-coordinates)
   - [Step 1.1 - Use of expo-location with the hook useEffect](#step-11---use-of-expo-location-with-the-hook-useeffect)
   - [Step 1.2 - The useState hook](#step-12---the-usestate-hook)
@@ -24,32 +23,21 @@
 
 During this workshop, you will learn :
 
-- How to build a weather application using React Native that displays the current weather based on the current location
-- How to use Expo Snack to accelerate the development process :
+- How to build a weather application in React Native that displays the current weather based on the current location
+- How to use Expo to accelerate the development process
 - How to interact with an API, here, OpenWeather's one
 
 ### Documentation
 
 - [React Native](https://reactnative.dev/docs/getting-started)
 - [Expo](https://docs.expo.dev/)
-- [Open Weather API](https://openweathermap.org/api]
+- [Open Weather API](https://openweathermap.org/api)
 
 > Do not hesitate to explore the docs, it could be useful for this workshop
 
 ## Setup
 
 Set up you project [here](SETUP.md)
-
-## Presence
-
-To be marked present, you need to send us a mail with your work, using your Epitech email address.
-
-Please respect the following format :
-
-- **To**: <christian.tran@epitech.eu>
-- **Cc**: <hahrin.seo@epitech.eu>
-- **Subject:** [First Name] [LAST NAME] Workshop React Native Part 1
-- **Body:** [URL of your snack]
 
 ## Step 1 - Fetch the user's coordinates
 
@@ -116,8 +104,6 @@ Since you are using the response from the API, store the response's data in a st
 
 Test if the data is correctly stored by displaying the city's name.
 
-Center the city's name.
-
 ### Step 2.4 - Recap and what we will be doing in the next steps
 
 Great ! You have managed to use the data from the API.
@@ -173,4 +159,3 @@ Add an image of representing the current weather above the temperature.
 ### Bonus - Style
 
 Personalize your weather app by adding style to your components ! (font, size, color, etc)
-
