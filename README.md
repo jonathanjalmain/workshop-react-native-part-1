@@ -117,7 +117,7 @@ You will create a classic layout with the current weather of the user's location
 Copy the following code into a new file named "CurrentWeather.js" in the components folder.
 
     import React from 'react'
-    import { View, Text, Image, StyleSheet } from 'react-native'
+    import { Text, StyleSheet } from 'react-native'
 
     export default function CurrentWeather({ data }) {
         return ()
