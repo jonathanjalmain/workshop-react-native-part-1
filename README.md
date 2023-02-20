@@ -121,14 +121,18 @@ Copy the following code into a new file named "CurrentWeather.js" in the compone
 
     export default function CurrentWeather({ data }) {
         return ()
-            <>
+            <View style={styles.container}>
                 <Text>{data?.city?.name}</Text>
-            </>
+            </View>
         )
     }
 
     const styles = StyleSheet.create({
-        city: {}
+        container: {
+            marginTop: 60,
+            alignItems: "center",
+            height: "65%"
+        }
     })
 
 Import that CurrentWeather in App.js and use it in the App component's return.
